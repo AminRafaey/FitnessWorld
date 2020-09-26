@@ -1,0 +1,76 @@
+.R_master {
+  background-color: #e8c95a;
+}
+
+/*Write*/
+#R_form_container {
+  padding: 20px 20px;
+  background: #404040;
+  color: #fff;
+}
+#R_form_container > h2 {
+  font-size: 20px;
+}
+
+.R_body {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+}
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.upload-btn-wrapper input[type="file"] {
+  font-size: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+/* Read Area*/
+.R_readPart {
+  padding-top: 4rem;
+}
+
+.R_messageArea > h3,
+.R_messageArea > p {
+  color: rgb(219, 219, 208);
+  padding-left: 2%;
+}
+.R_commentBox {
+  background-color: #33393e;
+  height: 12rem;
+}
+
+.R_quotes {
+  font-size: 5rem;
+}
+
+.R_test {
+  content: "";
+  position: absolute;
+  top: 71%;
+  padding-top: 100px;
+  left: 30px;
+  border-style: solid;
+  border-width: 30px 30px 0px 0px;
+  border-color: #33393e transparent transparent;
+}
+
+.R_name {
+  padding-top: 30px;
+}
+
+@media (max-width: 380px) {
+  .R_commentBox {
+    height: 18rem;
+  }
+
+  .R_test {
+    top: 77%;
+  }
+}

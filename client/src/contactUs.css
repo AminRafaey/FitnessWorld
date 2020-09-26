@@ -1,0 +1,76 @@
+.C_master {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #000;
+  background-image: url("./contact-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#C_form_container {
+  padding: 20px 20px;
+  background: black;
+  color: #fff;
+}
+#C_form_container > h2 {
+  font-size: 20px;
+}
+
+#C_form_container > p {
+  font-size: 15px;
+}
+.C_body {
+  background: url("./contact-background.jpg");
+}
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.upload-btn-wrapper input[type="file"] {
+  font-size: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+/*Left bar*/
+.C_fa-map-marker,
+.C_fa-phone,
+.C_fa-clock-o {
+  font-size: 60px;
+  margin: 15px;
+  margin-left: 30px;
+  color: #ffc107;
+}
+
+.C_foot p {
+  display: inline;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-top: 25px;
+  color: white;
+}
+
+p.C_map {
+  padding-top: 15rem;
+}
+
+.C_foot p {
+  padding-left: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-top: 25px;
+}
+
+p.C_map {
+  padding-top: 15rem;
+  padding-left: 10px;
+}
+
+.C_one,
+.C_two,
+.C_three {
+  padding-left: 2rem;
+}

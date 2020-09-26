@@ -1,0 +1,110 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+@import url("https://use.fontawesome.com/releases/v5.5.0/css/all.css");
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+.footer-social-icons {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+.social-icon {
+  color: #fff;
+}
+ul.social-icons {
+  margin-top: 10px;
+  border-left: 1px whitesmoke solid;
+}
+.social-icons li {
+  margin-left: 20px;
+  vertical-align: top;
+  display: inline;
+}
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+}
+.fa-facebook-f {
+  padding: 10px 14px;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #322f30;
+}
+.fa-user-cog {
+  font-size: 25px;
+  padding: 6px 14px;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #fff;
+  text-decoration: none;
+}
+.fa-facebook-f:hover {
+  background-color: #3d5b99;
+}
+.fa-twitter {
+  padding: 10px 12px;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #322f30;
+}
+.fa-twitter:hover {
+  background-color: #00aced;
+}
+.fa-linkedin-in {
+  padding: 10px 14px;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #322f30;
+}
+.fa-linkedin-in:hover {
+  background-color: #0073a4;
+}
+
+ul.social-icon {
+  margin-left: -35px;
+}
+
+img {
+  height: 70px;
+  width: 150px;
+}
+
+#N_memberBtn {
+  border-radius: 40px;
+}
+
+#N_menu {
+  color: white;
+  padding-top: 8px;
+  float: right;
+}
+
+#N_firstPart {
+  width: 100%;
+  padding-left: 48%;
+}
+
+@media (max-width: 990px) {
+  #N_firstPart {
+    padding-left: 0%;
+    display: flex;
+    flex-direction: column;
+  }
+  #N_menu {
+    align-items: flex-start;
+  }
+}

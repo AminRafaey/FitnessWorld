@@ -1,0 +1,93 @@
+.H_start {
+  background-image: url("./start/new.jpg");
+
+  max-width: auto;
+  height: 850px;
+  background-size: cover;
+}
+
+.H_start > h1 {
+  color: #ffc107;
+  font-size: 5rem;
+  padding-top: 10%;
+}
+
+.H_start > p {
+  color: white;
+  padding-top: 1rem;
+}
+
+.H_start > .nav-link > a > button {
+  font-size: 30px;
+}
+
+#H_memberBtn {
+  border-radius: 40px;
+}
+
+.H_program > h2 {
+  padding: 60px 0px 60px 42%;
+  color: whitesmoke;
+}
+/* For Coach */
+.H_master {
+  background-color: black;
+}
+
+.H_master > h1 {
+  color: white;
+  padding: 25px 0px 25px 45%;
+}
+
+.H_first,
+.H_second {
+  background-color: grey;
+}
+.H_body {
+  height: 20rem;
+}
+.footer-social-icons {
+  display: inline;
+}
+
+.H_head > img {
+  margin-left: -14px;
+  padding-right: 10px;
+}
+.H_body > h5 {
+  color: white;
+  padding-left: 60%;
+}
+
+.H_body > p {
+  padding-left: 5px;
+}
+
+@media (max-width: 450px) {
+  .H_body {
+    height: 100%;
+  }
+}
+/* For Footer */
+.H_foot {
+  background-color: #ffc107;
+  display: flex;
+  justify-content: space-between;
+}
+.H_fa-map-marker,
+.H_fa-phone,
+.H_fa-clock-o {
+  margin: 15px;
+  margin-left: 30px;
+  float: left;
+}
+.H_foot p {
+  display: inline;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-top: 25px;
+}
+
+p.H_map {
+  padding-top: 15rem;
+}

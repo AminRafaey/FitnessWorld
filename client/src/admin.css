@@ -1,0 +1,88 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+.A_profile {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 180px;
+}
+#A_secondPart {
+  margin-left: 80%;
+}
+
+@media (max-width: 1000px) {
+  #A_secondPart {
+    margin-left: 5%;
+  }
+  .A_profile {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 180px;
+  }
+}
+
+.A_mail {
+  font-size: 50px;
+  padding-top: 13px;
+  padding-right: 18px;
+}
+
+/*For side bar*/
+.A_left {
+  background-color: #343a40;
+}
+#A_bar {
+  height: 34rem;
+  position: sticky;
+  top: 50px;
+  z-index: 100;
+}
+.A_options {
+  width: 10rem;
+  margin-top: 1rem;
+}
+
+.A_icon1 {
+  margin-left: -10px;
+  margin-right: 1rem;
+}
+
+.A_icon2 {
+  margin-left: -35px;
+  margin-right: 1rem;
+}
+.A_icon3 {
+  margin-left: -15px;
+  margin-right: 1rem;
+}
+
+.A_icon4 {
+  margin-left: -15px;
+  margin-right: 1rem;
+}
+
+/*For Form*/
+.A_memberForm {
+  padding-top: 2rem;
+}
+
+.A_formHeading {
+  padding-top: 2rem;
+}
+
+@media (max-width: 770px) {
+  .A_addForm_master {
+    margin-left: 10rem;
+    background-color: brown;
+  }
+}
+
+/*For Member List*/
+.navbar-nav {
+  flex-direction: row;
+}
+
+.form-inline {
+  flex-wrap: nowrap;
+}
+
+/* Fee Status */
